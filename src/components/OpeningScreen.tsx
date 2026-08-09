@@ -88,7 +88,7 @@ export default function OpeningScreen({ onOpen }: OpeningScreenProps) {
         transition={{ delay: 0.3, duration: 1 }}
         className="relative z-10 pt-8"
       >
-        <span className="text-xs sm:text-sm uppercase tracking-[0.4em] text-[#d4af37] font-semibold drop-shadow">
+        <span className="text-xs sm:text-sm uppercase tracking-[0.4em] text-[#e8b4b8] font-semibold drop-shadow">
           {birthday.openingSubtitle}
         </span>
       </motion.div>
@@ -101,7 +101,7 @@ export default function OpeningScreen({ onOpen }: OpeningScreenProps) {
           transition={{ delay: 0.6, duration: 1.2, ease: [0.25, 1, 0.5, 1] }}
           className="space-y-4"
         >
-          <h1 className="font-serif-cormorant text-4xl sm:text-6xl md:text-7xl tracking-wide leading-tight text-[#faf6f0] whitespace-pre-line font-light gold-glow">
+          <h1 className="font-serif-cormorant text-4xl sm:text-6xl md:text-7xl tracking-wide leading-tight text-[#faf6f0] whitespace-pre-line font-light rose-glow">
             {birthday.openingTitle}
           </h1>
         </motion.div>
@@ -110,14 +110,14 @@ export default function OpeningScreen({ onOpen }: OpeningScreenProps) {
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
           transition={{ delay: 1.2, duration: 1.2, ease: "easeInOut" }}
-          className="w-24 h-[1px] bg-gradient-to-r from-transparent via-[#d4af37] to-transparent mx-auto"
+          className="w-24 h-[1px] bg-gradient-to-r from-transparent via-[#e8b4b8] to-transparent mx-auto"
         />
 
         <motion.p
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 0.9, y: 0 }}
           transition={{ delay: 1.5, duration: 1 }}
-          className="text-xs sm:text-sm tracking-[0.5em] text-[#f4e8c1] uppercase font-light"
+          className="text-xs sm:text-sm tracking-[0.5em] text-[#e6c594] uppercase font-light"
         >
           10 AUGUST 2026
         </motion.p>
@@ -132,14 +132,14 @@ export default function OpeningScreen({ onOpen }: OpeningScreenProps) {
       >
         <button
           onClick={onOpen}
-          className="group relative inline-flex items-center justify-center px-8 py-3.5 text-xs sm:text-sm tracking-[0.3em] uppercase text-[#faf6f0] border border-[#d4af37]/60 bg-[#121013]/90 rounded-full overflow-hidden backdrop-blur-md shadow-2xl transition-all duration-500 hover:scale-105 hover:border-[#d4af37] hover:shadow-[0_0_35px_rgba(212,175,55,0.5)]"
+          className="group relative inline-flex items-center justify-center px-8 py-3.5 text-xs sm:text-sm tracking-[0.3em] uppercase text-[#faf6f0] border border-[#e8b4b8]/70 bg-[#151118]/90 rounded-full overflow-hidden backdrop-blur-md shadow-2xl transition-all duration-500 hover:scale-105 hover:border-[#e8b4b8] hover:shadow-[0_0_35px_rgba(232,180,184,0.6)]"
         >
           <motion.span
-            animate={{ opacity: [0.3, 0.7, 0.3] }}
+            animate={{ opacity: [0.3, 0.8, 0.3] }}
             transition={{ duration: 3, repeat: Infinity }}
-            className="absolute inset-0 bg-gradient-to-r from-[#4a121a] via-[#c98a90]/40 to-[#4a121a]"
+            className="absolute inset-0 bg-gradient-to-r from-[#541620] via-[#e8b4b8]/40 to-[#541620]"
           />
-          <span className="relative z-10 font-semibold text-[#f4e8c1] group-hover:text-white transition-colors duration-300">
+          <span className="relative z-10 font-semibold text-[#f7eedb] group-hover:text-white transition-colors duration-300">
             OPEN YOUR SURPRISE
           </span>
         </button>
