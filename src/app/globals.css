@@ -2,13 +2,14 @@
 
 @layer base {
   :root {
-    --bg-dark: #080708;
-    --bg-card: #121013;
-    --gold-accent: #d4af37;
-    --rose-muted: #c98a90;
-    --champagne: #f4e8c1;
+    --bg-dark: #09080a;
+    --bg-card: #151118;
+    --rose-gold: #e8b4b8;
+    --rose-gold-glow: rgba(232, 180, 184, 0.4);
+    --gold-accent: #e6c594;
+    --champagne: #f7eedb;
     --ivory: #faf6f0;
-    --burgundy: #4a121a;
+    --burgundy-deep: #541620;
   }
 
   body {
@@ -17,8 +18,8 @@
     font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    selection-background-color: #4a121a;
-    selection-color: #f4e8c1;
+    selection-background-color: #541620;
+    selection-color: #e8b4b8;
   }
 }
 
@@ -27,14 +28,14 @@
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #080708;
+  background: #09080a;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2a2428;
+  background: #2d1d26;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #4a121a;
+  background: #541620;
 }
 
 /* Film Grain Overlay Effect */
@@ -49,9 +50,9 @@
 
 /* Subtle glow effects */
 .gold-glow {
-  text-shadow: 0 0 25px rgba(212, 175, 55, 0.35);
+  text-shadow: 0 0 25px rgba(230, 197, 148, 0.45);
 }
 
 .rose-glow {
-  text-shadow: 0 0 25px rgba(201, 138, 144, 0.4);
+  text-shadow: 0 0 25px rgba(232, 180, 184, 0.5);
 }
