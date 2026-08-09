@@ -1,26 +1,57 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --bg-dark: #080708;
+    --bg-card: #121013;
+    --gold-accent: #d4af37;
+    --rose-muted: #c98a90;
+    --champagne: #f4e8c1;
+    --ivory: #faf6f0;
+    --burgundy: #4a121a;
+  }
+
+  body {
+    background-color: var(--bg-dark);
+    color: var(--ivory);
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    selection-background-color: #4a121a;
+    selection-color: #f4e8c1;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080708;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2428;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4a121a;
+}
+
+/* Film Grain Overlay Effect */
+.film-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+/* Typography styles */
+.font-serif-cormorant {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+/* Subtle glow effects */
+.gold-glow {
+  text-shadow: 0 0 25px rgba(212, 175, 55, 0.35);
+}
+
+.rose-glow {
+  text-shadow: 0 0 25px rgba(201, 138, 144, 0.4);
 }
