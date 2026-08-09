@@ -6,7 +6,7 @@ import { birthday } from "@/config/birthday";
 
 export default function Story() {
   return (
-    <section className="relative py-32 px-6 bg-[#080708] border-b border-[#d4af37]/10">
+    <section className="relative py-32 px-6 bg-[#120a17] border-b border-[#a855f7]/20">
       <div className="max-w-5xl mx-auto space-y-24">
         {/* Section Title */}
         <div className="text-center space-y-4">

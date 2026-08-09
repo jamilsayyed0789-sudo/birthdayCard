@@ -30,7 +30,7 @@ export default function BirthdayCandle() {
   };
 
   return (
-    <section className="relative py-32 px-6 bg-[#080708] border-b border-[#d4af37]/10 text-center overflow-hidden">
+    <section className="relative py-32 px-6 bg-[#120a17] border-b border-[#a855f7]/20 text-center overflow-hidden">
       {/* Background Ambient Warmth */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-radial from-[#d4af37]/15 via-[#4a121a]/10 to-transparent blur-3xl pointer-events-none" />
 

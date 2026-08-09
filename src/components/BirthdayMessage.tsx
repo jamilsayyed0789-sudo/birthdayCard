@@ -5,7 +5,7 @@ import { birthday } from "@/config/birthday";
 
 export default function BirthdayMessage() {
   return (
-    <section className="relative py-28 px-6 bg-[#0c0a0d] overflow-hidden border-b border-[#d4af37]/10">
+    <section className="relative py-32 px-6 bg-[#120a17] border-b border-[#a855f7]/20">
       <div className="max-w-3xl mx-auto text-center space-y-12">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

@@ -13,8 +13,8 @@
   }
 
   body {
-    background-color: var(--bg-dark);
-    color: var(--ivory);
+    background-color: #120a17 !important;
+    color: #faf5ff;
     font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;

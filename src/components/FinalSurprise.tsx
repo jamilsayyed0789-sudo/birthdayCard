@@ -25,7 +25,7 @@ export default function FinalSurprise() {
   };
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 py-28 bg-[#080708] overflow-hidden">
+    <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 py-28 bg-[#120a17] overflow-hidden">
       {/* Background Hero Image */}
       <div className="absolute inset-0 z-0 opacity-20 filter brightness-75 contrast-125">
         <Image

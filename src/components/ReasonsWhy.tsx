@@ -15,7 +15,7 @@ export default function ReasonsWhy() {
   };
 
   return (
-    <section className="relative py-32 px-6 bg-[#0c0a0d] border-b border-[#d4af37]/10 text-center overflow-hidden">
+    <section className="relative py-32 px-6 bg-[#120a17] border-b border-[#a855f7]/20 text-center overflow-hidden">
       {/* Background Soft Glow Bulbs */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-radial from-[#4a121a]/25 via-[#c98a90]/10 to-transparent blur-3xl pointer-events-none" />
 

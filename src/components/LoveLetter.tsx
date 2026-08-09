@@ -6,7 +6,7 @@ import { Sparkles, Heart } from "lucide-react";
 
 export default function LoveLetter() {
   return (
-    <section className="relative py-36 px-6 bg-[#07120e] overflow-hidden border-b border-[#e5c378]/15">
+    <section className="relative py-36 px-6 bg-[#120a17] overflow-hidden border-b border-[#a855f7]/20">
       {/* Dynamic Pulsing Ambient Glow */}
       <motion.div
         animate={{
